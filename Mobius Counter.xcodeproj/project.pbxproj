@@ -14,6 +14,9 @@
 		0E45FF0422547FE4003DC6B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E45FF0222547FE4003DC6B1 /* LaunchScreen.storyboard */; };
 		0E45FF0F22547FE4003DC6B1 /* Mobius_CounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E45FF0E22547FE4003DC6B1 /* Mobius_CounterTests.swift */; };
 		0E45FF1A22547FE4003DC6B1 /* Mobius_CounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E45FF1922547FE4003DC6B1 /* Mobius_CounterUITests.swift */; };
+		10416FCC448376421CB49E23 /* Pods_Mobius_CounterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70FBDF3A4E7FE66F01AA9C70 /* Pods_Mobius_CounterTests.framework */; };
+		4F03C8486E7111C9CE7483A8 /* Pods_Mobius_Counter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6827F94C78132EED63F1E9B /* Pods_Mobius_Counter.framework */; };
+		BF4306C590B3EC9ED50276C3 /* Pods_Mobius_CounterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 819D8D0347C4EFBAC5522C28 /* Pods_Mobius_CounterUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,15 @@
 		0E45FF1522547FE4003DC6B1 /* Mobius CounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mobius CounterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E45FF1922547FE4003DC6B1 /* Mobius_CounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobius_CounterUITests.swift; sourceTree = "<group>"; };
 		0E45FF1B22547FE4003DC6B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29A82C9CE1F3A6F4EC2969CB /* Pods-Mobius CounterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobius CounterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mobius CounterTests/Pods-Mobius CounterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		33141BCF5E2C034DEDB5A770 /* Pods-Mobius Counter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobius Counter.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mobius Counter/Pods-Mobius Counter.release.xcconfig"; sourceTree = "<group>"; };
+		37E721011721914A74041606 /* Pods-Mobius Counter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobius Counter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mobius Counter/Pods-Mobius Counter.debug.xcconfig"; sourceTree = "<group>"; };
+		461992B2336854BA1D69085E /* Pods-Mobius CounterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobius CounterUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mobius CounterUITests/Pods-Mobius CounterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		54761EB585EBF8B306C5AB1A /* Pods-Mobius CounterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobius CounterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mobius CounterTests/Pods-Mobius CounterTests.release.xcconfig"; sourceTree = "<group>"; };
+		70FBDF3A4E7FE66F01AA9C70 /* Pods_Mobius_CounterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mobius_CounterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		819D8D0347C4EFBAC5522C28 /* Pods_Mobius_CounterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mobius_CounterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C21F102216EE85A3A16FA79C /* Pods-Mobius CounterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobius CounterUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mobius CounterUITests/Pods-Mobius CounterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C6827F94C78132EED63F1E9B /* Pods_Mobius_Counter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mobius_Counter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F03C8486E7111C9CE7483A8 /* Pods_Mobius_Counter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10416FCC448376421CB49E23 /* Pods_Mobius_CounterTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF4306C590B3EC9ED50276C3 /* Pods_Mobius_CounterUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B09EB0B425DFF1A72B5A28B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37E721011721914A74041606 /* Pods-Mobius Counter.debug.xcconfig */,
+				33141BCF5E2C034DEDB5A770 /* Pods-Mobius Counter.release.xcconfig */,
+				29A82C9CE1F3A6F4EC2969CB /* Pods-Mobius CounterTests.debug.xcconfig */,
+				54761EB585EBF8B306C5AB1A /* Pods-Mobius CounterTests.release.xcconfig */,
+				C21F102216EE85A3A16FA79C /* Pods-Mobius CounterUITests.debug.xcconfig */,
+				461992B2336854BA1D69085E /* Pods-Mobius CounterUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		0E45FEED22547FE3003DC6B1 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +109,8 @@
 				0E45FF0D22547FE4003DC6B1 /* Mobius CounterTests */,
 				0E45FF1822547FE4003DC6B1 /* Mobius CounterUITests */,
 				0E45FEF722547FE3003DC6B1 /* Products */,
+				0B09EB0B425DFF1A72B5A28B /* Pods */,
+				CAEBF5C222BC79EEBA5DCCEC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +155,16 @@
 			path = "Mobius CounterUITests";
 			sourceTree = "<group>";
 		};
+		CAEBF5C222BC79EEBA5DCCEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6827F94C78132EED63F1E9B /* Pods_Mobius_Counter.framework */,
+				70FBDF3A4E7FE66F01AA9C70 /* Pods_Mobius_CounterTests.framework */,
+				819D8D0347C4EFBAC5522C28 /* Pods_Mobius_CounterUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E45FF1E22547FE4003DC6B1 /* Build configuration list for PBXNativeTarget "Mobius Counter" */;
 			buildPhases = (
+				B45C7663EF55D972AA01F340 /* [CP] Check Pods Manifest.lock */,
 				0E45FEF222547FE3003DC6B1 /* Sources */,
 				0E45FEF322547FE3003DC6B1 /* Frameworks */,
 				0E45FEF422547FE3003DC6B1 /* Resources */,
+				D3D4B5F2A47F2800A990DFCB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,9 +191,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E45FF2122547FE4003DC6B1 /* Build configuration list for PBXNativeTarget "Mobius CounterTests" */;
 			buildPhases = (
+				0CBFE83A9DB09D718ECAAD6D /* [CP] Check Pods Manifest.lock */,
 				0E45FF0622547FE4003DC6B1 /* Sources */,
 				0E45FF0722547FE4003DC6B1 /* Frameworks */,
 				0E45FF0822547FE4003DC6B1 /* Resources */,
+				527B8A57E200D8A30DC0FC63 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -167,6 +211,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E45FF2422547FE4003DC6B1 /* Build configuration list for PBXNativeTarget "Mobius CounterUITests" */;
 			buildPhases = (
+				3F35D21EC3B17C7AAB3835D1 /* [CP] Check Pods Manifest.lock */,
 				0E45FF1122547FE4003DC6B1 /* Sources */,
 				0E45FF1222547FE4003DC6B1 /* Frameworks */,
 				0E45FF1322547FE4003DC6B1 /* Resources */,
@@ -250,6 +295,127 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CBFE83A9DB09D718ECAAD6D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mobius CounterTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F35D21EC3B17C7AAB3835D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mobius CounterUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		527B8A57E200D8A30DC0FC63 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Mobius CounterTests/Pods-Mobius CounterTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MobiusCore/MobiusCore.framework",
+				"${BUILT_PRODUCTS_DIR}/MobiusNimble/MobiusNimble.framework",
+				"${BUILT_PRODUCTS_DIR}/MobiusTest/MobiusTest.framework",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MobiusCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MobiusNimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MobiusTest.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mobius CounterTests/Pods-Mobius CounterTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B45C7663EF55D972AA01F340 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mobius Counter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3D4B5F2A47F2800A990DFCB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Mobius Counter/Pods-Mobius Counter-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MobiusCore/MobiusCore.framework",
+				"${BUILT_PRODUCTS_DIR}/MobiusExtras/MobiusExtras.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MobiusCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MobiusExtras.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mobius Counter/Pods-Mobius Counter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0E45FEF222547FE3003DC6B1 /* Sources */ = {
@@ -430,6 +596,7 @@
 		};
 		0E45FF1F22547FE4003DC6B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37E721011721914A74041606 /* Pods-Mobius Counter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +615,7 @@
 		};
 		0E45FF2022547FE4003DC6B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33141BCF5E2C034DEDB5A770 /* Pods-Mobius Counter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +634,7 @@
 		};
 		0E45FF2222547FE4003DC6B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29A82C9CE1F3A6F4EC2969CB /* Pods-Mobius CounterTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +656,7 @@
 		};
 		0E45FF2322547FE4003DC6B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54761EB585EBF8B306C5AB1A /* Pods-Mobius CounterTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +678,7 @@
 		};
 		0E45FF2522547FE4003DC6B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C21F102216EE85A3A16FA79C /* Pods-Mobius CounterUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +699,7 @@
 		};
 		0E45FF2622547FE4003DC6B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 461992B2336854BA1D69085E /* Pods-Mobius CounterUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
