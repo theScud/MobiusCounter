@@ -14,6 +14,8 @@
 		0E45FF0422547FE4003DC6B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E45FF0222547FE4003DC6B1 /* LaunchScreen.storyboard */; };
 		0E45FF0F22547FE4003DC6B1 /* Mobius_CounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E45FF0E22547FE4003DC6B1 /* Mobius_CounterTests.swift */; };
 		0E45FF1A22547FE4003DC6B1 /* Mobius_CounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E45FF1922547FE4003DC6B1 /* Mobius_CounterUITests.swift */; };
+		0E45FF2822548500003DC6B1 /* Canary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E45FF2722548500003DC6B1 /* Canary.swift */; };
+		0E45FF2A2254A2F1003DC6B1 /* MobusCounterLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E45FF292254A2F1003DC6B1 /* MobusCounterLogic.swift */; };
 		10416FCC448376421CB49E23 /* Pods_Mobius_CounterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70FBDF3A4E7FE66F01AA9C70 /* Pods_Mobius_CounterTests.framework */; };
 		4F03C8486E7111C9CE7483A8 /* Pods_Mobius_Counter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6827F94C78132EED63F1E9B /* Pods_Mobius_Counter.framework */; };
 		BF4306C590B3EC9ED50276C3 /* Pods_Mobius_CounterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 819D8D0347C4EFBAC5522C28 /* Pods_Mobius_CounterUITests.framework */; };
@@ -50,6 +52,8 @@
 		0E45FF1522547FE4003DC6B1 /* Mobius CounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mobius CounterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E45FF1922547FE4003DC6B1 /* Mobius_CounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobius_CounterUITests.swift; sourceTree = "<group>"; };
 		0E45FF1B22547FE4003DC6B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E45FF2722548500003DC6B1 /* Canary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Canary.swift; sourceTree = "<group>"; };
+		0E45FF292254A2F1003DC6B1 /* MobusCounterLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobusCounterLogic.swift; sourceTree = "<group>"; };
 		29A82C9CE1F3A6F4EC2969CB /* Pods-Mobius CounterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobius CounterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mobius CounterTests/Pods-Mobius CounterTests.debug.xcconfig"; sourceTree = "<group>"; };
 		33141BCF5E2C034DEDB5A770 /* Pods-Mobius Counter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobius Counter.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mobius Counter/Pods-Mobius Counter.release.xcconfig"; sourceTree = "<group>"; };
 		37E721011721914A74041606 /* Pods-Mobius Counter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobius Counter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mobius Counter/Pods-Mobius Counter.debug.xcconfig"; sourceTree = "<group>"; };
@@ -133,6 +137,7 @@
 				0E45FF0022547FE4003DC6B1 /* Assets.xcassets */,
 				0E45FF0222547FE4003DC6B1 /* LaunchScreen.storyboard */,
 				0E45FF0522547FE4003DC6B1 /* Info.plist */,
+				0E45FF292254A2F1003DC6B1 /* MobusCounterLogic.swift */,
 			);
 			path = "Mobius Counter";
 			sourceTree = "<group>";
@@ -140,6 +145,7 @@
 		0E45FF0D22547FE4003DC6B1 /* Mobius CounterTests */ = {
 			isa = PBXGroup;
 			children = (
+				0E45FF2722548500003DC6B1 /* Canary.swift */,
 				0E45FF0E22547FE4003DC6B1 /* Mobius_CounterTests.swift */,
 				0E45FF1022547FE4003DC6B1 /* Info.plist */,
 			);
@@ -423,6 +429,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E45FEFC22547FE3003DC6B1 /* ViewController.swift in Sources */,
+				0E45FF2A2254A2F1003DC6B1 /* MobusCounterLogic.swift in Sources */,
 				0E45FEFA22547FE3003DC6B1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +439,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E45FF0F22547FE4003DC6B1 /* Mobius_CounterTests.swift in Sources */,
+				0E45FF2822548500003DC6B1 /* Canary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,6 +521,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -574,6 +583,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -601,6 +611,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BPFRBW2ELY;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Mobius Counter/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -620,6 +631,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BPFRBW2ELY;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Mobius Counter/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
