@@ -6,31 +6,42 @@
 //  Copyright © 2019 Sudeep Kini. All rights reserved.
 //
 
-import XCTest
 @testable import Mobius_Counter
+import XCTest
+import MobiusTest
 
 class Mobius_CounterTests: XCTestCase {
-
-    override func setUp() {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
-    func testIncrement() {
-        let model = 1
-        let counterlogic = CounterBrain()
-        let model2 = counterlogic.update(model: model, forEvent: .incriment)
-        XCTAssertEqual(model2, 2)
+    let updateSpec = UpdateSpec<CounterLoopTypes>(counterUpdate)
+    
+    func testIncerment(){
+        updateSpec.given(1)
+                  .when(.incriment)
+                  .then(
+                    assertThatNext(
+                        hasModel(2),
+                        hasNoEffects()
+                    ))
     }
     
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    func testDecriment(){
+        updateSpec.given(1)
+                  .when(.decriment)
+                  .then(
+                    assertThatNext(
+                        hasModel(0),
+                        hasNoEffects()
+                    ))
     }
-
+    
+    func testLessthanZero(){
+        updateSpec.given(0)
+                  .when(.decriment)
+                  .then(
+                    assertThatNext(
+                            hasNoModel(),
+                            hasEffects([.showLessthanZeroError]
+                    ))
+                   )
+    }
+    
 }
